@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main-Engry point 
- * Inserts the data into n
- * and prints the operator value of n
- * @: used for holding randum number
- * Return: 0
+*main-Engry point
+*Inserts the data into n
+*and prints the operator value of n
+*@: used for holding randum number
+*Return:0
 **/
 int main(void)
 {
