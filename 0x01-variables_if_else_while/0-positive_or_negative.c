@@ -2,25 +2,27 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *  * main-Entry point
- *   * @n: used for holding random numbers
- *    * Return: 0
- **/
-int main( )
+ * main-Engry point 
+ * Inserts the data into n
+ * and prints the operator value of n
+ * @: used for holding randum number
+ * Return: 0
+**/
+int main(void)
 {
-    int n;
-    srand(time(0));
-    n = rand() - RAND_MAX / 2;
-    if (n >0 )
-    {
-        printf("%d is positive\n", n);
-    }
-    else if(n == 0)
-    {
-        printf("%d is zero\n", n);
-    }
-    else{
-        printf("%d is negative\n",n);
-    }
-    return (0);
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n == 0)
+	{
+		printf("%d is zero\n", n);
+	}
+	else
+	{
+		printf("%d is negative\n", n);
+	}
+	return (0);
 }
