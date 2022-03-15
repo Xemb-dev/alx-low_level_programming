@@ -5,6 +5,7 @@
 *main-Engry point
 *Inserts the data into n
 *and prints the operator value of n
+*and the last digit of n
 *@: used for holding randum number
 *Return:0
 **/
@@ -15,17 +16,17 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	digit= n % 10;
-	if (n > 0)
-		printf("%d is positive\n", n);
-	else if (n == 0)
+	digit = n % 10;
+	printf("Last digit of %d is ", n);
+	if (digit > 5)
+		printf("%d and is greater than 5\n", digit);
+	else if (digit == 0)
 	{
-		printf("%d is zero\n", n);
+		printf("%d and is 0\n", digit);
 	}
 	else
 	{
-		printf("%d is negative\n", n);
+		printf("%d and is less than 6\n", digit);
 	}
-	printf("Character: %d \n", digit);
 	return (0);
 }
