@@ -1,18 +1,18 @@
-#include<stdio.h>
-/**
- *main-entry point
- *prints the alphabets
- *@: used for storing the values
- *Return:0
- **/
-void _print_alphabet(void)
+#include "main.h"
+
+/** 
+  * print_alphabet 
+  * @: prints the letters of the alphabet
+  * Return: void
+  **/
+void print_alphabet(void)
 {
 	char a = 'a';
 
 	while (a <= 'z')
 	{
-		putchar(a);
+		_putchar(a);
 		a++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
