@@ -5,7 +5,7 @@
  *@: putchar to print
  *Return: 0
  **/
-int main(void)
+void _putchar(void)
 {
 	char a[9] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\n'};
 	int i = 0;
@@ -15,5 +15,4 @@ int main(void)
 		putchar(a[i]);
 		i++;
 	}
-	return (0);
 }

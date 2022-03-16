@@ -5,7 +5,7 @@
  *@: used for storing the values
  *Return:0
  **/
-int main(void)
+void print_alphabet(void)
 {
 	char a = 'a';
 
@@ -15,5 +15,4 @@ int main(void)
 		a++;
 	}
 	putchar('\n');
-	return (0);
 }
