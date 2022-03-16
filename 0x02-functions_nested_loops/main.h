@@ -1,5 +1,18 @@
+void print_alphabet();
 void _putchar();
 
+
+void print_alphabet()
+{
+	char a = 'a';
+	
+	while (a <= 'z')
+	{
+		putchar(a);
+		a++;
+	}
+	putchar('\n');
+}
 
 void _putchar()
 {
@@ -12,3 +25,4 @@ void _putchar()
 		i++;
 	}
 }
+
