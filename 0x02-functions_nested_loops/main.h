@@ -1,8 +1,10 @@
-void print_alphabet();
-void _putchar();
+#ifndef <stdio.h>
+#define <stdio.h>
+void print_alphabet(void);
+void _putchar(void);
 
 
-void print_alphabet()
+void print_alphabet(void)
 {
 	char a = 'a';
 	
@@ -13,8 +15,7 @@ void print_alphabet()
 	}
 	putchar('\n');
 }
-
-void _putchar()
+void _putchar(void)
 {
 	char a[9] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\n'};
 	int i = 0;
@@ -25,4 +26,4 @@ void _putchar()
 		i++;
 	}
 }
-
+#endif
