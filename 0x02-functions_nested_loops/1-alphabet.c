@@ -1,8 +1,9 @@
 #include "main.h"
 
-/** 
-  * print_alphabet 
-  * @: prints the letters of the alphabet
+/**
+  * print_alphabet entry point
+  * prints the letters of the alphabet
+  * @: a holds the alphabet
   * Return: void
   **/
 void print_alphabet(void)
