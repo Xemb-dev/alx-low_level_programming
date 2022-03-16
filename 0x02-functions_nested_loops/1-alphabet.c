@@ -5,7 +5,7 @@
  *@: used for storing the values
  *Return:0
  **/
-void print_alphabet(void)
+void _print_alphabet(void)
 {
 	char a = 'a';
 
