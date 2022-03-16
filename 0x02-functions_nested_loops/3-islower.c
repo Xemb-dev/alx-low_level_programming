@@ -1,4 +1,3 @@
-#include<stdio.h>
 #include"main.h"
 
 /**
@@ -7,14 +6,17 @@
   *@c: function parameter
   *Return: 0
   */
-int  _islower(int c)
+int _islower(int c)
 {
-	if (islower(c))
+	char a = 'a';
+
+	while (a <= 'z')
 	{
-		return (1);
+		if (c == a)
+		{
+			return (1);
+		}
+		a++;
 	}
-	else
-	{
-		return (0);
-	}
+	return (0);
 }
