@@ -2,7 +2,7 @@
 
 void print_alphabet(void);
 void _putchar(void);
-
+void print_alphabet_x10(void);
 
 void print_alphabet(void)
 {
@@ -24,5 +24,22 @@ void _putchar(void)
 	{
 		putchar(a[i]);
 		i++;
+	}
+}
+void print_alphabet_x10(void)
+{
+	char a = 'a';
+	int number= 0;
+	
+	while (number < 10)
+	{
+		while (a <= 'z')
+		{
+			putchar(a);
+			a++;
+		}
+		putchar('\n');
+		a='a';
+		number++;
 	}
 }
